@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Roboto:wght@300&display=swap');
+
+:root {
+    --container-color: #7b3b3b;
+    --clock-color: #f7f7f7;
+    --bg-color: #2a2829;
+    --date-color: #fff;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    width: 100%;
+    min-height: 100vh;
+    align-items: center;
+    background-color: var(--bg-color);
+    text-align: center;
+    flex-direction: column;
+}
+
+body, .container, .clock {
+    display: flex;
+
+}
+
+body, .container, .clock {
+    justify-content: center;
+}
+
+h1 {
+    font-size: 8vw;
+    color: var(--date-color);
+}
+
+p {
+    font-size: 12vw;
+}
+
+.container {
+    max-width: 70vw;
+    overflow: hidden;
+    border-radius: 1.5rem;
+}
+
+.calendar {
+    background-color: var(--container-color);
+    padding: 0.5rem 1rem;
+}
+
+.clock {
+    padding: 1rem;
+    flex-direction: row;
+    background-color: var(--clock-color)
+}
+
+.credit {
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff7a;
+    margin: 1rem 0;
+    font-size: 0.5rem;
+}
