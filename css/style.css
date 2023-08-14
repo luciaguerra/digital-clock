@@ -52,11 +52,21 @@ p {
     padding: 0.5rem 1rem;
 }
 
+#day {
+    text-transform: uppercase;
+}
+
 .clock {
     padding: 1rem;
     flex-direction: row;
     background-color: var(--clock-color)
 }
+
+#ampm {
+    font-size: 5vw;
+    position: relative;
+    top: 0.7rem;
+} 
 
 .credit {
     font-family: 'Roboto', sans-serif;
